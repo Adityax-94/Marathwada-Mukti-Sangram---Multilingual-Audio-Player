@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Audio Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <a href="https://aurangabadsmartcity.in/" class="logo" target="_blank">
+        <img src="ASCDCL Logo.jpg" alt="Company Logo">
+        </a>
+
+        <h1 class="grand-heading">मराठवाडा मुक्ती संग्राम</h1>
+
+        
+    <div class="container">
+        <h1>Select a Language</h1>
+        <div class="button-grid">
+            <button class="language-button" data-lang="english">English</button>
+            <button class="language-button" data-lang="hindi">Hindi</button>
+            <button class="language-button" data-lang="spanish">Spanish</button>
+            <button class="language-button" data-lang="french">French</button>
+            <button class="language-button" data-lang="german">German</button>
+            <button class="language-button" data-lang="mandarin">Mandarin</button>
+            <button class="language-button" data-lang="japanese">Japanese</button>
+            
+            <button class="language-button" data-lang="arabic">Arabic</button>
+        </div>
+                    <div id="audio-controls-container" class="hidden">
+            <h2>Now Playing: <span id="current-language"></span></h2>
+            <audio id="audio-player" controls></audio>
+            </div>
+    </div>
+
+    <audio id="english-audio" src="english_audio.mp3"></audio>
+    <audio id="spanish-audio" src="audio/spanish.mp3"></audio>
+    <audio id="french-audio" src="audio/french.mp3"></audio>
+    <audio id="german-audio" src="audio/german.mp3"></audio>
+    <audio id="mandarin-audio" src="audio/mandarin.mp3"></audio>
+    <audio id="japanese-audio" src="audio/japanese.mp3"></audio>
+    <audio id="hindi-audio" src="audio/hindi.mp3"></audio>
+    <audio id="arabic-audio" src="audio/arabic.mp3"></audio>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
