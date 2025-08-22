@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             audioPlayer.pause();
             audioPlayer.currentTime = 0;
-            audioPlayer.src = `audio/${language}.mp3`;
+            audioPlayer.src = `${language}.mp3`;
             currentLanguageDisplay.textContent = languageName;
 
             
@@ -24,4 +24,5 @@ document.addEventListener('DOMContentLoaded', () => {
             audioPlayer.play();
         });
     });
+
 });
